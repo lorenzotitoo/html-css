@@ -1,0 +1,77 @@
+Imagens Dinamicas: Imagens que se adaptam ao tamanho da tela do usuário.
+Inserir a tag <picture com <img e inserir a imagem de tamanho maximo. Criar a tag <source mediatype em cima e colocar maxwidth com 50px a mais que a maior imagem.
+colocar o lugar da imagem em srcset e /png no type.
+AUDIOS:
+Abrir a tag <Audio. parametros(ATRIBUTOS) necessários: controls(exibe as formas de controle do audio) nao necessários: autoplay, loop, muted. 
+preload=´metadata'(carrega o audio apenas quando o usuário clicar play.)
+Após inserir os sources, com src levando ao caminho da midia. Pode ser inserido um <p mostrando mensagem de erro e um caminho para download com <a
+VIDEO: <video para abrir, atributos como width(tamanho da thumb do video, POSTER para colocar uma imagem como thumb, controls, autoplay,
+para startar o video depois do começo colocar &start= no final da URL
+PARA CENTRALIZAR O SITE: caso queira centralizar o site TODO: criar a tag style abaixo de TITLE, colocar a tag body { e dentro do colchetes TEXTALIGN CENTER. caso queira mudar
+a cor do site também coloque BACKGROUND COLOR
+Caso queira centralizar apenas uma parte: ENVELOPE COM A TAG DIV e nomeie um atributo CLASS. depois na tag styles, fora do body caso tenha, digite.(nome do atributo) {textalign}
+
+CSS:
+LINK CSS EM BAIXO DO TITLE NO CODIGO HMTL
+@CHARSET 'UTF-8': Regra do css para evitar incompatibilidade.
+
+tudo que quiser estilizar do código html, colocar o nome e abrir a chave e estilizar. EX: main { }
+FONT FAMILY: fonte de escrita
+Background Image: cor do fundo, podendo fazer um DEGRADE COM LINEAR-GRADIENT, to bottom, to right, to top.
+PEGAR PALETA DE CORES NO ADOBE COLOR.
+
+WIDTH: Largura de algo
+PADDING: Espaçamento da borda 
+Margin: Centraliza o conteudo ou main
+BORDER RADIUS: faz a borda do conteudo
+BOX SHADOW: sombra
+
+SHORTHAND FONT:
+    font style, font weight, font size, font family
+font-family: se quiser de fora, @import url, colocar
+font weight: peso da fonte
+font size: em pixels ou em em
+
+PARA ESTILIZAR APENAS UM (ex) H1 EM CSS:
+atribui uma id =' ' no HTML e depois #nomedaid NO CSS
+
+PARA ESTILIZAR APENAS MAIS DE UM (ex) H1 EM CSS:
+atribui uma class = ' ' no HTML e depois .
+
+PSEUDOCLASSE:
+para atribuir uma pseudoclasse basta digitar ':' onde abre uma estilização para a tag.
+HOVER: pseudoclasse que define o estado ao passar o mouse em cima
+
+ELEMENTO FILHO : EX: DIV > elemento {
+
+PSEUDOELEMENTO:
+USAR :: Após especificar o que quer atribuir pseudoelementos ex p ou div ou classe.
+
+User Agent: navegador
+
+Tags Semânticas DIV: 
+<header>: Cabeçalho da página ou de uma seção.
+<nav>: Blocos de links de navegação (menus).
+<main>: Conteúdo principal do site.
+<section>: Agrupamento de conteúdo temático.
+<article>: Conteúdo independente ou autônomo (posts, notícias).
+<aside>: Conteúdo de barra lateral ou relacionado.
+<footer>: Rodapé da página ou de uma seção
+
+separar algo: use margin. margin auto para centralizar o conteudo, e depois margin lado para afastar algum lado.
+
+em: relativo ao elemento pai
+
+transition duration: tempo de dar o hover.
+
+Elemento inline (display: inline)
+
+Fica na mesma linha de outros elementos.
+Não aceita width e height da mesma forma.
+margin: auto não centraliza.
+Elemento block (display: block)
+
+Ocupa uma linha inteira.
+Aceita width, height e margin normalmente.
+Pode ser centralizado com margin: auto.
+
