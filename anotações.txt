@@ -75,3 +75,9 @@ Ocupa uma linha inteira.
 Aceita width, height e margin normalmente.
 Pode ser centralizado com margin: auto.
 
+BACKGROUND SIZE: COVER
+BACKGROUND ATTACHMENT: FIXED
+
+SHORTHAND BACKGROUND:
+color, image, repeat, attachment, positiom / size , origin, clip
+
